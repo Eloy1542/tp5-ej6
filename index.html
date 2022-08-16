@@ -23,12 +23,12 @@
         </div>
         <div>
             <h3>Tiempo transcurrido</h3>
-            <p id="reloj">00:00</p>
+            <p id="reloj" class="fs-5">00:00</p>
         </div>
         <div class="my-4">
-            <button class="inicio btn btn-primary" >Iniciar</button>
-            <button class="parar btn btn-success">Pausar</button>
-            <button class="reiniciar btn btn-danger">Reiniciar</button>
+            <button class="inicio btn btn-primary" onclick="temporizador()" >Iniciar</button>
+            <button class="parar btn btn-success" onclick="parar()">Pausar</button>
+            <button class="reiniciar btn btn-danger" onclick="resetear()">Reiniciar</button>
         </div>
     </section>
 </main>
